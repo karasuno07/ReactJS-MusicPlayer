@@ -1,0 +1,30 @@
+/* CONTROL */
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 8px 0;
+}
+
+.control button {
+    color: #666;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.control button.active {
+    color: #ec1f55;
+}
+
+.control .btn-toggle-play {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 21px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ec1f55;
+}

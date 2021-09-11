@@ -1,0 +1,92 @@
+/* ========= PRE LOADER ==========*/
+
+.preloader {
+    display: contents;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.show {
+    opacity: 0;
+    transition: opacity 250ms ease;
+}
+
+.hide {
+    opacity: 1;
+    transition: opacity 500ms ease;
+}
+
+.wave {
+    width: 0.4em;
+    height: 6em;
+    background: #5c72b1;
+    margin: 0 0.4em;
+    border-radius: 0.4em;
+    transform-origin: bottom;
+}
+
+.wave-1 {
+    animation: waving 3s linear 0ms 1 alternate both;
+}
+
+.wave-2 {
+    animation: waving 3s linear 100ms 1 alternate both;
+}
+
+.wave-3 {
+    animation: waving 3s linear 200ms 1 alternate both;
+}
+
+.wave-4 {
+    animation: waving 3s linear 300ms 1 alternate both;
+}
+
+.wave-5 {
+    animation: waving 3s linear 400ms 1 alternate both;
+}
+
+.wave-6 {
+    animation: waving 3s linear 500ms 1 alternate both;
+}
+
+.wave-7 {
+    animation: waving 3s linear 600ms 1 alternate both;
+}
+
+.wave-8 {
+    animation: waving 3s linear 700ms 1 alternate both;
+}
+
+.wave-9 {
+    animation: waving 3s linear 800ms 1 alternate both;
+}
+
+.wave-10 {
+    animation: waving 3s linear 900ms 1 alternate both;
+}
+
+@keyframes waving {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(0);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}

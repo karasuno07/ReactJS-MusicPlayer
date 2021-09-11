@@ -1,0 +1,107 @@
+{
+  "version": "0.1.0",
+  "name": "music-player-app",
+  "problems": [
+    "extraneous: bindings@1.5.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\bindings",
+    "extraneous: file-uri-to-path@1.0.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\file-uri-to-path",
+    "extraneous: nan@2.15.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\nan"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": {
+      "version": "1.2.36",
+      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.36.tgz"
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "version": "5.15.4",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.4.tgz"
+    },
+    "@fortawesome/free-regular-svg-icons": {
+      "version": "5.15.4",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.15.4.tgz"
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "version": "5.15.4",
+      "resolved": "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.4.tgz"
+    },
+    "@fortawesome/react-fontawesome": {
+      "version": "0.1.15",
+      "resolved": "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.15.tgz"
+    },
+    "@reduxjs/toolkit": {
+      "version": "1.6.1",
+      "resolved": "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.6.1.tgz"
+    },
+    "@testing-library/jest-dom": {
+      "version": "4.2.4",
+      "resolved": "https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-4.2.4.tgz"
+    },
+    "@testing-library/react": {
+      "version": "9.5.0",
+      "resolved": "https://registry.npmjs.org/@testing-library/react/-/react-9.5.0.tgz"
+    },
+    "@testing-library/user-event": {
+      "version": "7.2.1",
+      "resolved": "https://registry.npmjs.org/@testing-library/user-event/-/user-event-7.2.1.tgz"
+    },
+    "bindings": {
+      "version": "1.5.0",
+      "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz",
+      "extraneous": true,
+      "problems": [
+        "extraneous: bindings@1.5.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\bindings"
+      ]
+    },
+    "bootstrap": {
+      "version": "5.1.0",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.1.0.tgz"
+    },
+    "file-uri-to-path": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz",
+      "extraneous": true,
+      "problems": [
+        "extraneous: file-uri-to-path@1.0.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\file-uri-to-path"
+      ]
+    },
+    "nan": {
+      "version": "2.15.0",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.15.0.tgz",
+      "extraneous": true,
+      "problems": [
+        "extraneous: nan@2.15.0 e:\\Workspace\\react-js\\music-player-app\\node_modules\\nan"
+      ]
+    },
+    "react-bootstrap": {
+      "version": "2.0.0-beta.6",
+      "resolved": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.0.0-beta.6.tgz"
+    },
+    "react-dom": {
+      "version": "17.0.2",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
+    },
+    "react-hook-form": {
+      "version": "7.14.2",
+      "resolved": "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.14.2.tgz"
+    },
+    "react-redux": {
+      "version": "7.2.5",
+      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-7.2.5.tgz"
+    },
+    "react-router-dom": {
+      "version": "5.3.0",
+      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.3.0.tgz"
+    },
+    "react-scripts": {
+      "version": "4.0.3",
+      "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-4.0.3.tgz"
+    },
+    "react": {
+      "version": "17.0.2",
+      "resolved": "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
+    },
+    "wavesurfer-react": {
+      "version": "2.0.8",
+      "resolved": "https://registry.npmjs.org/wavesurfer-react/-/wavesurfer-react-2.0.8.tgz"
+    }
+  }
+}

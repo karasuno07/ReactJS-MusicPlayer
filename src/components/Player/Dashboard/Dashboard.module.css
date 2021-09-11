@@ -1,0 +1,12 @@
+.dashboard {
+    position: fixed;
+    padding: 12px 16px;
+    background-color: #c4ccdd;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    max-width: 320px;
+    border-bottom: 1.5px solid #455b8675;
+    border-radius: 2px;
+    z-index: 100;
+}

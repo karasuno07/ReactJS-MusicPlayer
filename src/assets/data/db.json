@@ -1,0 +1,34 @@
+{
+    "songs": [
+        {
+            "name": "Nevada",
+            "singer": "Vicetone (ft. Cozi Zuehlsdorff)",
+            "url": "music/Vicetone - Nevada (ft. Cozi Zuehlsdorff).mp3",
+            "thumbnail": "music/thumbnail/nevada.jpg"
+        },
+        {
+            "name": "Summertime (Sunshine)",
+            "singer": "K-391",
+            "url": "music/K-391 - Summertime [Sunshine].mp3",
+            "thumbnail": "music/thumbnail/summertime-k391.jpg"
+        },
+        {
+            "name": "Fractures",
+            "singer": "Illenium ft. Nevve",
+            "url": "music/Illenium - Fractures (Feat. Nevve).mp3",
+            "thumbnail": "music/thumbnail/fractures.jpg"
+        },
+        {
+            "name": "Stay",
+            "singer": "The Kid LAROI, Justin Bieber",
+            "url": "music/The Kid LAROI, Justin Bieber - Stay.mp3",
+            "thumbnail": "music/thumbnail/stay.jpg"
+        },
+        {
+            "name": "Walk Thru Fire",
+            "singer": "Vicetone ft. Meron Ryan",
+            "url": "music/Vicetone - Walk Thru Fire ft. Meron Ryan.mp3",
+            "thumbnail": "music/thumbnail/walk-thru-fire.jpg"
+        }
+    ]
+}

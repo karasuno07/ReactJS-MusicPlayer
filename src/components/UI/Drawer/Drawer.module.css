@@ -1,0 +1,38 @@
+.drawer {
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: #282828;
+    max-width: 400px;
+    width: 400px;
+    z-index: 10000;
+    transform: translateX(100%);
+}
+
+.show {
+    animation: slideLeft .5s linear forwards;
+}
+
+.hide {
+    animation: slideRight 0.5s linear forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}

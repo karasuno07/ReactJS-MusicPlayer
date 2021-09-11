@@ -1,0 +1,126 @@
+/* ========= CURRENT SONG ==========*/
+
+.preview {
+    position: fixed;
+    top: 18%;
+    right: 20px;
+    background: #4c8ecc50;
+    border-radius: 5px;
+    z-index: 999;
+    display: flex;
+    padding: 10px;
+    transition: all 0.5s linear;
+    box-shadow: 1px 2px 2.5px 3px #046dcf90;
+}
+
+.preview.hide {
+    right: -300px;
+}
+
+.thumbnail {
+    display: flex;
+    margin: auto;
+    width: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #00000025;
+    animation: cdThumbRotate 10s linear 0s infinite;
+    animation-play-state: paused;
+}
+
+.thumbnail:hover {
+    -webkit-box-shadow: 0 0 10px #447db3;
+    -moz-box-shadow: 0 0 10px #447db3;
+    box-shadow: 0 0 10px #447db3;
+}
+
+.cd-thumbnail {
+    --circle-radius: 7px;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    background-size: cover;
+    margin: auto;
+    --mask: radial-gradient(circle farthest-side at center center, transparent var(--circle-radius), rgb(255, 255, 255) calc(var(--circle-radius) + 2px) 100%) 50% 50%/100% 100% no-repeat;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.playing {
+    animation-play-state: running;
+}
+
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-right: 7.5px;
+}
+
+.preview button {
+    display: flex;
+    font-weight: bold;
+    color: #1e1d1f;
+    background: #0f7adf70;
+    box-shadow: 0 0 0 1px #2c659b;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 10px 2px 2px 5px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview button:hover, .btn:focus {
+    box-shadow: 0 0 3px 2px #094d9270;
+    background-color: #4c82d4;
+    color: #333;
+    transition-property: box-shadow, background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.btn-txt {
+    padding-left: 5px !important;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.info {
+    width: 150px;
+    padding-left: 5px;
+    cursor: default;
+    color: #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ecbc1f;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+    .preview {
+        top: 20px;
+    }
+}
+
+@keyframes cdThumbRotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

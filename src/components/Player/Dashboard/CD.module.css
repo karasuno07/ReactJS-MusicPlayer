@@ -1,0 +1,40 @@
+/* CD */
+
+.cd {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cd.hide {
+    width: 0;
+}
+
+.cd-thumb {
+    --circle-radius: 15px;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    background-size: cover;
+    margin: auto;
+    --mask: radial-gradient(circle farthest-side at center center, transparent var(--circle-radius), #000 calc(var(--circle-radius) + 2px) 100%) 50% 50%/100% 100% no-repeat;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    animation: cdThumbRotate 10s linear 0s infinite;
+    animation-play-state: paused;
+}
+
+.playing {
+    animation-play-state: running;
+}
+
+@keyframes cdThumbRotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,39 @@
+.circle {
+    background: transparent;
+    position: fixed;
+    top: calc(45%);
+    left: calc(50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 15rem;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: none;
+    transition: box-shadow 1.5s linear;
+    z-index: -1;
+}
+
+.circle.active {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 20px #3d6d9b;
+    -moz-box-shadow: 0 0 20px #3d6d9b;
+    box-shadow: 0 0 20px #3d6d9b;
+    filter: none;
+    transition-property: opacity, box-shadow, filter;
+    transition-duration: 1s, 1.25s, 1s;
+    transition-timing-function: linear;
+}
+
+.circle.active.hover {
+    filter: brightness(1.5);
+    -webkit-box-shadow: 0 0 75px #447db3;
+    -moz-box-shadow: 0 0 75px #447db3;
+    box-shadow: 0 0 75px #447db3;
+    transition-property: box-shadow, filter;
+    transition-duration: 0.75s, 1s;
+    transition-timing-function: linear;
+}
+
+.circle:focus {
+    outline: none !important;
+}

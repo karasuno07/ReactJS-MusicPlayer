@@ -1,0 +1,40 @@
+#visualizer {
+    display: flex;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 96;
+}
+
+.collapse {
+    animation: slideUp .5s linear forwards;
+}
+
+.show {
+    animation: slideDown .5s linear forwards;
+}
+
+@keyframes slideUp {
+    from {
+        bottom: 50px;
+        right: 0;
+    }
+    to {
+        bottom: 0;
+        right: 350px;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        bottom: 0;
+        right: 350px;
+    }
+    to {
+        bottom: 50px;
+        right: 0;
+    }
+}

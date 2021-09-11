@@ -1,0 +1,36 @@
+#waveform {
+    height: 50px;
+    z-index: 999;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.show {
+    animation: fadeIn 0.5s linear forwards;
+}
+
+.hide {
+    animation: fadeOut 0.5s linear forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,114 @@
+/* ========= WAVE SURFER ==========*/
+
+.footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background: rgba(50, 50, 50, 0.5);
+    z-index: 2;
+    transition-property: opacity, height;
+    transition-duration: 0.75s;
+    transition-timing-function: linear;
+}
+
+.footer.hide {
+    animation: hide 0.5s linear forwards;
+}
+
+.footer.show {
+    animation: show 0.5s linear forwards;
+}
+
+@keyframes hide {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes show {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* ========= COPY RIGHT ==========*/
+
+#copyright {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease-in-out, slideUp 0.75s linear;
+    z-index: 10000;
+}
+
+#copyright.show {
+    animation: fadeIn 0.5s ease-in-out, slideUp 0.75s linear;
+}
+
+#copyright.hide {
+    animation: fadeOut 0.5s ease-in-out forwards, slideDown 0.75s linear forwards;
+}
+
+#copyright span {
+    font-size: 0.75rem;
+    color: #DDD;
+    font-weight: bold;
+}
+
+#copyright span a {
+    font-size: 1rem;
+    color: #ecbc1f;
+}
+
+#copyright span a:hover {
+    color: #d13c22;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}

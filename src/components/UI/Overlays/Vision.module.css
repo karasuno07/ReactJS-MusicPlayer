@@ -1,0 +1,36 @@
+.vision {
+    padding: 15rem;
+    position: fixed;
+    top: calc(45% - 15rem);
+    left: calc(50% - 15rem);
+    background-color: transparent;
+    background-image: url('../../../assets/image/icon/vision.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem 3rem;
+    border-radius: 50%;
+    z-index: 975;
+    opacity: 999;
+    transform: rotate(0deg);
+    transition: transform 0.66s linear, opacity 1.5s linear 0.5s;
+}
+
+.vision.active {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    filter: none;
+    opacity: 0.75;
+    transition-property: transform, filter, opacity;
+    transition-duration: 0.66s, 0.5s, 1.5s;
+    transition-timing-function: linear;
+}
+
+.vision.active.fully {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    filter: brightness(1.25);
+    opacity: 1;
+    transition-property: transform, filter, opacity;
+    transition-duration: 0.44s, 1.25s, 1s;
+    transition-timing-function: linear;
+}

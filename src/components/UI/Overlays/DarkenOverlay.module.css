@@ -1,0 +1,23 @@
+.darken-overlay {
+    --circle-radius: 15rem;
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    --mask: radial-gradient(circle farthest-side at center 45%, transparent var(--circle-radius), rgb(255, 255, 255) calc(var(--circle-radius) + 2px) 100%) 50% 50%/100% 100% no-repeat;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    transition: background-color 1.5s ease;
+}
+
+.darken-overlay.hiding {
+    background-color: transparent;
+}
+
+.darken-overlay.active {
+    background-color: #33445575;
+    transition: background-color 0.75s ease-in-out;
+}

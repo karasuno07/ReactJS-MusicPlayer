@@ -1,0 +1,15 @@
+.character {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.ayaka {
+    background-image: url('../../../assets/image/ayaka-only.png');
+}

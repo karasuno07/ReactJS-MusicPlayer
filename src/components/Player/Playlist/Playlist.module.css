@@ -1,0 +1,12 @@
+.playlist {
+    position: relative;
+    margin-top: 395px;
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+    z-index: 50;
+    overflow-y: scroll;
+}
+
+.playlist.expand {
+    margin-top: 195px;
+}
